@@ -1,6 +1,6 @@
 const request = require('request');
 
-const geocode = require('./gecode/geocode.js');
+const geocode = require('../geocode/geocode.js');
 
 
 var geocodeAddress = (address, callback) => {
